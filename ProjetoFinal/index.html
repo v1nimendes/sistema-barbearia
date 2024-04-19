@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costelinha Barber Shop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url(FundoTrabalho.jpg);
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100%;
+            margin: 5%;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+                0 10px 10px rgba(0, 0, 0, 0.22);
+            text-align: center;
+        }
+
+        img {
+            max-width: 50%; /* Garante que a imagem não ultrapasse a largura da tela */
+            max-height: 300px; /* Define uma altura máxima para a imagem */
+            height: auto; /* Garante que a proporção da imagem seja mantida */
+            margin-bottom: 20px; /* Espaço abaixo da imagem */
+        }
+
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-options {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .login-options a {
+            color: #fff;
+            background: #ff4b2b;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 12px 55px;
+            margin: 20px;
+            border-radius: 20px;
+            border: 1px solid #ff4b2b;
+            outline: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: transform 80ms ease-in;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="costelinhapng.png" alt="Logo Costelinha Barber Shop">
+    <form>
+        <h1>Bem-vindo à Costelinha Barber Shop</h1>
+        <div class="login-options">
+            <a href="Cliente/formulario_cliente.php">Login como Cliente</a>
+            <a href="Gerencia/formulario_gerente.php">Login como Gerente</a>
+        </div>
+    </form>
+</body>
+
+</html>
